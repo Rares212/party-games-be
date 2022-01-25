@@ -17,6 +17,7 @@ public class Host implements UserDetails {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
+
     @Column(name = "first_name", length = 32)
     private String firstName;
 
